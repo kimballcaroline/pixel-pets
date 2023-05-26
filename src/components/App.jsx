@@ -6,6 +6,7 @@ import { Controls } from './Controls';
 import { Modal } from './Modal';
 import { GameOver } from './GameOver';
 import { GamePlay } from './GamePlay';
+import { Footer } from './Footer';
 
 const App = () => {
   const [gameStart, setStart] = useState(false);
@@ -29,6 +30,7 @@ const App = () => {
         {gameStart && <GamePlay action={action} setAction={setAction} gameOver={gameOver} setGameOver={setGameOver} setStart={setStart}/>}
       </div>
       <Buttons move={move} setMove={setMove} setAction={setAction} start={gameStart} setStart={setStart} setGameOver={setGameOver} />
+      <Footer />
     </div>
   )
 }
