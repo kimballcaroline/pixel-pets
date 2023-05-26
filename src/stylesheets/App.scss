@@ -1,0 +1,23 @@
+@import './variables';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 10vw 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px 2px 0 0;
+  height: 500px;
+  width: 600px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $text-color;
+  background-image: url(../assets/background/Bg_Iceberg.png);
+  background-size: contain;
+}
+
