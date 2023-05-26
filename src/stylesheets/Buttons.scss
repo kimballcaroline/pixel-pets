@@ -1,0 +1,62 @@
+@import './variables';
+
+
+.buttons-wrapper {
+  width: 600px;
+  background-color: #2C97A6;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-radius: 0px 0px 2px 2px;
+  border-top: 3px solid $text-color;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
+  justify-content: space-around;
+  align-self: center;
+  padding: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: solid $text-color;
+  width: 10px;
+  height: 10px;
+}
+
+.btn:hover {
+  border-color: #5FCFDF;
+}
+
+.btn:active {
+  border-color: #FF7C3F;
+}
+
+#left {
+  transform: rotate(-45deg);
+  border-width: 4px 0px 0px 4px;
+}
+
+#right {
+  transform: rotate(-45deg);
+  border-width: 0px 4px 4px 0px;
+}
+
+#middle {
+  border-width: 3px;
+  border-radius: 2px;
+  background-color: $text-color;
+}
+
+#middle:hover {
+  background-color: #5FCFDF;
+}
+
+#middle:active {
+  background-color: #FF7C3F;
+}
