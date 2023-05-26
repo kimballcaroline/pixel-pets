@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import {useState, useRef, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import '../stylesheets/App.scss';
 import { Buttons } from './Buttons';
 import { Controls } from './Controls';
@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     if(gameOver){
       setStart(false);
-     }
+    }
   }, [gameOver])
 
 
