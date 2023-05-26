@@ -8,7 +8,7 @@
   justify-content: center;
   padding: 10px 0;
   border-radius: 0px 0px 2px 2px;
-  border-top: 3px solid $text-color;
+  border-top: 3px solid white;
 }
 
 
@@ -24,7 +24,7 @@
 .btn {
   cursor: pointer;
   display: inline-block;
-  border: solid $text-color;
+  border: solid white;
   width: 10px;
   height: 10px;
 }
@@ -50,7 +50,7 @@
 #middle {
   border-width: 3px;
   border-radius: 2px;
-  background-color: $text-color;
+  background-color: white;
 }
 
 #middle:hover {
