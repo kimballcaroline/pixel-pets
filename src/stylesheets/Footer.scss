@@ -5,4 +5,17 @@
   img{
     height: 16px;
   }
+
+  a{
+    color: #5FCFDF;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .footer {
+    width: 60%;
+  }
+  img{
+    width: 16px;
+  }
 }
