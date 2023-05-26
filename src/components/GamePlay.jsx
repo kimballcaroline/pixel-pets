@@ -58,7 +58,7 @@ export const GamePlay = (props) => {
     if(clock === hungerTime && status !== 'POOPING') {setStatus('HUNGRY'); setDieTime(getNextDieTime(clock));}
     if(clock === poopTime && status !== 'HUNGRY') {setStatus('POOPING'); setDieTime(getNextDieTime(clock));}
     if(clock === sleepTime) {sleep()}
-    if(clock === dieTime) {setStatus('DEAD'); setTimeout(() => setGameOver(!gameOver), 4000)}
+    if(clock === dieTime) {setStatus('DEAD'); setTimeout(() => setGameOver(!gameOver), 3000)}
     if(action === 'feed' && status === 'HUNGRY') {feed()}
     if(action === 'clean' && status === 'POOPING') {clean()}
     if(action === 'give-pets') {givePets()}
