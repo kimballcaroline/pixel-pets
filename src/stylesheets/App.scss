@@ -21,3 +21,9 @@
   background-size: contain;
 }
 
+@media screen and (max-width: 599px) {
+  .frame{
+    height: 250px;
+    width: 300px;
+  }
+}

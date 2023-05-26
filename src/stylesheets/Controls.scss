@@ -20,3 +20,13 @@
   background-color: white;
 }
 
+
+@media screen and (max-width: 599px) {
+  .controls {
+    margin: 40px 0 20px 0;
+  }
+
+  .control-icon{
+      width: 16px;
+  }
+}

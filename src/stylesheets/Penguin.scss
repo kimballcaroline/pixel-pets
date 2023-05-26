@@ -5,8 +5,11 @@
 .penguin-hatching {
   background-image: url(../assets/penguin/Penguin_Hatching.png);
   background-repeat: no-repeat;
+  // background-size: 500%;
   width: 320px;
   height: 160px;
+  // width: 53.33%;
+  // height: 26.66%;
   animation: hatching 4s steps(6);
 }
 
@@ -16,8 +19,11 @@
   }
   to {
     background-position: -1920px;
+    // background-position: 100% 0;
   }
 }
+
+
 
 .penguin-idling {
   background-image: url(../assets/penguin/Penguin_Idling.png);
@@ -128,4 +134,42 @@
   background-repeat: no-repeat;
   width: 320px;
   height: 160px;
+}
+
+@media screen and (max-width: 599px) {
+  .penguin {
+    margin: 0px;
+  }
+
+  .penguin-hatching {
+    transform: scale(0.5);
+  }
+
+  .penguin-idling {
+    transform: scale(0.5);
+  }
+
+  .penguin-eating {
+    transform: scale(0.5);
+  }
+
+  .penguin-sleeping {
+    transform: scale(0.5);
+  }
+
+  .penguin-dead {
+    transform: scale(0.5);
+  }
+
+  .penguin-hungry {
+    transform: scale(0.5);
+  }
+
+  .penguin-pooping {
+    transform: scale(0.5);
+  }
+
+  .penguin-celebrating {
+    transform: scale(0.5);
+  }
 }

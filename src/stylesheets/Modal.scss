@@ -19,3 +19,15 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 599px) {
+  .modal{
+    width: 280px;
+    padding: 10px;
+    text-align: center;
+
+  img {
+    width: 16px;
+  }
+  }
+}
