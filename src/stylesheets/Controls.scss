@@ -1,0 +1,22 @@
+@import './variables';
+
+.controls {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.control-icon {
+  color: black;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: lightgrey;
+}
+
+#active {
+  transform: scale(1.5);
+  background-color: white;
+}
+
