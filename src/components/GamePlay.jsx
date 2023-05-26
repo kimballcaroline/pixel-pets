@@ -67,8 +67,6 @@ export const GamePlay = (props) => {
 },[clock]);
 
   return (
-    <div>
       <Penguin status={status}/>
-    </div>
   )
 }
