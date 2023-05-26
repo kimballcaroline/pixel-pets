@@ -1,0 +1,131 @@
+.penguin {
+  margin-top: 100px;
+}
+
+.penguin-hatching {
+  background-image: url(../assets/penguin/Penguin_Hatching.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+  animation: hatching 4s steps(6);
+}
+
+@keyframes hatching {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -1920px;
+  }
+}
+
+.penguin-idling {
+  background-image: url(../assets/penguin/Penguin_Idling.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  animation: idling 1.5s steps(2) infinite;
+}
+
+@keyframes idling {
+  to {
+    background-position: -320px;
+  }
+}
+
+.penguin-pooping {
+  background-image: url(../assets/penguin/Penguin_Pooping.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 160px;
+  animation: pooping-play 4s steps(8),
+             pooping-loop 1.5s steps(2) 3s infinite
+
+}
+
+@keyframes pooping-play {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -2560px;
+  }
+}
+
+@keyframes pooping-loop {
+  from {
+    background-position: -1920px;
+  }
+  to {
+    background-position: -2560px;
+  }
+}
+
+.penguin-sleeping {
+  background-image: url(../assets/penguin/Penguin_Sleeping.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  animation: sleeping 2s steps(2) infinite;
+}
+
+@keyframes sleeping {
+  to {
+    background-position: -320px;
+  }
+}
+
+.penguin-hungry {
+  background-image: url(../assets/penguin/Penguin_Hungry.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+  animation: hungry 2s steps(2) infinite;
+}
+
+@keyframes hungry {
+  to {
+    background-position: -640px;
+  }
+}
+
+.penguin-eating {
+  background-image: url(../assets/penguin/Penguin_Eating.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+  animation: eating 4s steps(6);
+}
+
+@keyframes eating {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -1920px;
+  }
+}
+
+.penguin-celebrating {
+  background-image: url(../assets/penguin/Penguin_Celebrating.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+  animation: celebrating 1s steps(2) infinite;
+}
+
+@keyframes celebrating {
+  from {
+    background-position: -640px;
+  }
+  to {
+    background-position: -1280px;
+  }
+}
+
+.penguin-dead {
+  background-image: url(../assets/penguin/Penguin_Tombstone.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 160px;
+}
