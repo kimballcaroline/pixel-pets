@@ -38,10 +38,10 @@ You can play the game here: https://pixel-pets.netlify.app/
 
 ## Contributing:
 
-Have a suggestion? Found a bug? Want to make Cloudband even more amazing? Please fork the repo and create a pull request.
+Have a suggestion? Found a bug? Want to make Pixel-Pets even more amazing? Please fork the repo and create a pull request.
 Don't forget to give the project a star ⭐️! Thanks again!
 
-1. Fork Cloudband
+1. Fork Pixel-Pets
 2. Clone to your local machine
    ```
    git clone <your-repo-url>
