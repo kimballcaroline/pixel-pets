@@ -1,3 +1,4 @@
+<a name='readme-top'></a>
 # Pixel-Pets
 
 ## Summary
@@ -32,3 +33,33 @@ The images in this app were generated using [Piskel](https://www.piskelapp.com/p
 ## Deployed Version
 
 You can play the game here: https://pixel-pets.netlify.app/
+
+<br>
+
+## Contributing:
+
+Have a suggestion? Found a bug? Want to make Cloudband even more amazing? Please fork the repo and create a pull request.
+Don't forget to give the project a star ⭐️! Thanks again!
+
+1. Fork Cloudband
+2. Clone to your local machine
+   ```
+   git clone <your-repo-url>
+   ```
+3. Create your Feature Branch
+   ```
+   git checkout -b feature/AmazingFeature
+   ```
+
+4. Commit your Changes
+   ```
+   git commit -m 'Add some AmazingFeature'
+   ```
+5. Push to the Branch
+   ```
+   git push origin feature/AmazingFeature
+   ```
+10. Open a Pull Request
+
+
+<p>(<a href="#readme-top">back to top</a>)</p>
